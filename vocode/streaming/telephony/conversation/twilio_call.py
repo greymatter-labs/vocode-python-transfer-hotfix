@@ -154,5 +154,5 @@ class TwilioCall(Call[TwilioOutputDevice]):
         return None
 
     def mark_terminated(self):
-        super().mark_terminated()
+        # super().mark_terminated()
         #self.telephony_client.end_call(self.twilio_sid)
